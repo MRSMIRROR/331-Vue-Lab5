@@ -31,9 +31,9 @@ if (route.query.pageSize) {
       </div>
       <div class="wrapper">
         <nav>
-          <RouterLink :to="{ name: 'event-list-view', query: { pageSize: pageSize } }">Event</RouterLink>
-          <RouterLink :to="{ name: 'about' }">About</RouterLink>
-          <RouterLink :to="{ name: 'Student' }">Student</RouterLink>
+          <RouterLink :to="{ name: 'event-list-view', query: { pageSize: pageSize } }">Event</RouterLink> |
+          <RouterLink :to="{ name: 'about' }">About</RouterLink> |
+          <RouterLink :to="{ name: 'Student' }">Student</RouterLink> |
         </nav>
         <div>
           <label for="page-size">Event per page</label>
